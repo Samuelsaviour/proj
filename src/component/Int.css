@@ -1,0 +1,55 @@
+body{
+    background-color: rgb(114, 115, 115);
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    min-height: 100vh;
+}
+.container{
+    background: linear-gradient(blue,rgb(91, 57, 225));
+    width: 400px;
+    display: grid;
+    height: 400px;
+    place-items: center;
+    padding: 10px;
+    border-radius:10px;
+}
+span{
+    display: flex;
+}
+input{
+    padding:7px 0px 7px 15px;
+    border:none;
+    width:100%;
+    color:black;
+    outline: none;
+    border-radius:30px;
+
+}
+.searchcontainer{
+    padding: 7px  12px;
+    background-color: #fff;
+    border-radius: 50%;
+     cursor: pointer;
+}
+.searchicon{
+    width: 13px;
+    height: 13px;
+    fill: bisque;
+}
+.sunicon{
+    fill:#fff ;
+    width: 30px;
+    height: 30px;
+    
+    
+}
+.countryname{
+    font-size: 24px;
+    color:#fff;
+}
+.celcius{
+    font-size: 18px;
+    color: #fff;
+    font-weight: 700;
+}
